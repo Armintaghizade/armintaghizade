@@ -1,0 +1,31 @@
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: darkslategrey;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+.main .h1{
+    color: red;
+    font-family: initial;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+
+}
+.h1:hover,.h1:focus{
+    color: deepskyblue;
+}
+.main p{
+    text-align: center;
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.main p:hover{
+    color: brown;
+}
